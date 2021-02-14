@@ -4,21 +4,52 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="contactStyle.css">
     <title>Po-Hsuan Chiang Personal Website</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../project/project.html">Project</a></li>
-                <h1 class="name">Po-Hsuan Chiang</h1>
-                <li><a href="../blog/blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../project/project.html">Project</a></li>
+                    <h1 class="name">Po-Hsuan Chiang</h1>
+                    <li><a href="../blog/blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+    <div class="contactForm">
+        <form action="../index.html" method="PUT">
+            <fieldset>
+                    <legend>Contact Me</legend>
+                    <label for="name">Name<br/>
+                    <input type="text" id="name" name="name"></label><br/>
+
+                    <label for="email">Email<br/>
+                    <input type="text" id="email" name="email"></label><br/>
+
+                    <label for="message">Message</label><br/>
+                    <textarea id="message" name="message"></textarea>
+                    
+                    <input type="submit" value="Submit Info">
+            </fieldset>
+        </form>
+    </div>
+    <div class="socialMedia">
+        <div class="icons">
+            <!-- <div>Icons made by <a href="https://www.freepik.com" 
+            title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 
+            title="Flaticon">www.flaticon.com</a></div> -->
+        <a href="www.linkedin.com/in/emily-chiang-244243167" target="_blank">
+            <img src="../images/linkedin.svg" width=60 height=60>
+        </a>
+        <a href="https://github.com/chiangp168?tab=repositories" target="_blank">
+            <img src="../images/github.svg" width=60 height=60>
+        </a>
+        </div>
+    </div>
 </body>
 </html>
