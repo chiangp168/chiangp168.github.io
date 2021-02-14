@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #F49696;
+    align-items: center;
+  }
+
+header * {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+header li {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .name {
+    color:#2A4C73;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header a {
+    color: white;
+} 
+
+header a:hover {
+    font-weight: 800;
+}
+
+.bio {
+    height:min-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas:
+     "leftcontent rightcontent";
+    column-gap: 0.3cm;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+.left-content {
+    grid-area: leftcontent;
+    background-color: #71C4C1;
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: 670px;
+}
+
+.photo {
+    margin: auto;
+    display: flex;
+    width: 400px;
+    height: 600px;
+}
+
+.photo img {
+    margin:auto;
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.right-content {
+    grid-area: rightcontent;
+    background-color: #EF5B5B;
+    display: flex;
+    height: 670px;
+}
+
+.intro {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.intro h1 {
+    color:#223d5d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 20px 30px 20px;
+}
+
+.intro p {
+    color:#223d5d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px 50px 30px 20px;
+    padding: 5px 5px 5px 5px;
+    font-weight: 500;
+}
