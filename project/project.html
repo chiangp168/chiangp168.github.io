@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../Style.css">
-    <title>Po-Hsuan Chiang Personal Website</title>
+    <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    <link rel="stylesheet" href="projectStyle.css">
+    <title>Emily Chiang Personal Website</title>
 </head>
 
 <body>
@@ -14,11 +14,90 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="project.html">Project</a></li>
-                <h1 class="name">Po-Hsuan Chiang</h1>
+                <h1 class="name">Emily Chiang</h1>
                 <li><a href="../blog/blog.html">Blog</a></li>
                 <li><a href="../contact/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <div class="showProjects">
+        <h1> All Projects </h1>
+        <div class="boxes">
+            <div class="square">
+                <div class="photo">
+                    <a href="https://github.com/chiangp168?tab=repositories" target="_blank">
+                    <img src="../images/TodoList.jpg" alt="To-Do List" style="height: 330px;">
+                    </a>
+                </div>
+                <h3>To-Do List</h3>
+            </div>
+            <div class="square">
+                <div class="photo">
+                    <a href="https://github.com/chiangp168?tab=repositories" target="_blank">
+                    <img src="../images/Othello.png" alt="Othello Game" style="height: 330px;">
+                    </a>
+                </div>
+                <h3>Othello</h3>
+            </div>
+            <div class="square">
+                <div class="photo">
+                    <a href="https://github.com/chiangp168?tab=repositories" target="_blank">
+                    <img class="HungryHippoImage" src="../images/HungryHippo.png" alt="Hungry Hippo" style="height: 330px;">
+                    </a>
+                </div>
+                <h3>Hungry Hippo</h3>
+            </div>
+            <div class="square">
+                <div class="photo">
+                    <a href="https://github.com/chiangp168?tab=repositories" target="_blank">
+                    <img src="../images/Recipe.jpg" alt="Recipe" style="height: 330px;">
+                    </a>
+                </div>
+                <h3>Find Recipes</h3>
+            </div>
+        </div>
+    </div>
+    <section class="details">
+        <h1>Project Details</h1>
+        <div id="toDoList">
+            <h2>To-Do List</h2>
+            <h3>Java</h3>
+            <ul>
+                <li>Developed a system allowing users to add and track the status of their task using MVC architecture.</li>
+                <li>Utilized a HashMap to organize command line arguments, and to store and organize information from a CSV file.</li>
+                <li>Developed sortable custom objects to enable filtration of task.</li>
+                <li>Collaborated with team using Git version control.</li>
+                
+            </ul>
+        </div>
+        <div id="Othello">
+            <h2>Othello</h2>
+            <h3>Python</h3>
+            <ul>
+                <li>Developed an interactive Othello game using Processing application to allow player to compete against computer.</li>
+                <li>Implemented recursive algorithms to validate and store legal moves as a set for each turn. </li>
+                <li>The game calculates and display the winner along with their respective scores. Additionally, 
+                    each player’s score is stored in an external file, and read through file using os module.</li>
+            </ul>
+        </div>
+        <div id="HungryHippo">
+            <h2>Hungry Hippo</h2>
+            <h3>Java</h3>
+            <ul>
+                <li>Built a full stack food delivery web application using MVC architecture.</li>
+                <li>Used Agile workflow to define project scope and conducting weekly stand up to set weekly milestones.</li>
+                <li>Integrated Java with MongoDB as the web application database.</li>
+                <li>Used Spark Java web framework to run our web application.</li>
+            </ul>
+        </div>
+        <div id="Recipe">
+            <h2>Recipe</h2>
+            <h3>Java, MySQL, JDBC/JSP</h3>
+            <ul>
+                <li>Designed an UML diagram of relational database for a recipe finding website.</li>
+                <li>Implemented servlets and CRUD operations for database query.</li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
