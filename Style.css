@@ -115,7 +115,7 @@ header a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-     "experience edu";
+     "edu experience";
     color: #223d5d;
     column-gap: 0.3cm;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
