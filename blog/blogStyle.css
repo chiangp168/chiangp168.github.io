@@ -43,6 +43,11 @@ header a:hover {
     font-weight: 800;
 }
 
+#current {
+    font-style: italic;
+    color:#EF5B5B;
+}
+
 .campingBlog {
     margin-top: 10px;
     padding-bottom: 20px;

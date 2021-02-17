@@ -42,6 +42,11 @@ header a:hover {
     font-weight: 800;
 }
 
+#current {
+    font-style: italic;
+    color:#EF5B5B;
+}
+
 .contactForm {
     margin-top: 10px;
     height: 750px;
