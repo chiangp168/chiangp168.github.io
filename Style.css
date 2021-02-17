@@ -4,7 +4,7 @@ body {
 
 header {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     height: 100px;
     width: 100%;
     top: 0;
@@ -50,7 +50,7 @@ header a:hover {
     grid-template-areas:
      "leftcontent rightcontent";
     column-gap: 0.3cm;
-    margin-top: 110px;
+    margin-top: 10px;
 }
 
 .left-content {
@@ -120,6 +120,7 @@ header a:hover {
     column-gap: 0.3cm;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
+    font-size: 18px;
 }
 
 .master {

@@ -93,6 +93,7 @@ h3 {
 }
 
 .details {
+    font-size: 20px;
     height: min-content;
     display: flex;
     flex-direction: column;

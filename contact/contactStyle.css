@@ -44,13 +44,13 @@ header a:hover {
 
 .contactForm {
     margin-top: 10px;
-    height: 620px;
+    height: 750px;
     background-color: #EF5B5B;
 }
 
 form {
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#223d5d;
 }
@@ -59,7 +59,7 @@ fieldset{
     margin: auto;
     text-align:center;
     width: 400px;
-    height: 550px;
+    height: 600px;
     border: 3px solid #BABDBF;
 }
 
@@ -80,6 +80,7 @@ input[type="text"] {
 
 input[type="submit"] {
     border-radius: 5px;
+    margin-top: 60px;
     width: 100px;
     height: 30px;
     background-color: #fdfdfd;

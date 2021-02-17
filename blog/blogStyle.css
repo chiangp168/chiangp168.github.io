@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #F49696;
+    align-items: center;
+  }
+
+header * {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+header li {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .name {
+    color:#2A4C73;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header a {
+    color: white;
+} 
+
+header a:hover {
+    font-weight: 800;
+}
+
+.campingBlog {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    height: min-content;
+    /* background-color: #EF5B5B; */
+    background-color: #71C4C1;
+    color:#223d5d;
+}
+
+.campingBlog h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.campingBlog p {
+    width: 50%;
+    font-size: 20px;
+    margin: 60px auto;
+}
+
+.campingPhoto {
+    text-align: center;
+    object-fit: contain;
+}
