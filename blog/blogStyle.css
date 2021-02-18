@@ -52,7 +52,6 @@ header a:hover {
     margin-top: 10px;
     padding-bottom: 20px;
     height: min-content;
-    /* background-color: #EF5B5B; */
     background-color: #71C4C1;
     color:#223d5d;
 }
@@ -71,4 +70,50 @@ header a:hover {
 .campingPhoto {
     text-align: center;
     object-fit: contain;
+}
+
+.campingPhoto img {
+    width: 50%;
+}
+
+.lakePhoto {
+    text-align: center;
+}
+
+.lakePhoto img {
+    width: 90%;
+}
+
+@media only screen and (max-width: 414px) {
+    header {
+        display: flex;
+        height: 200px;
+        width: 100%;
+        background-color: #F49696;
+        align-items: center;
+    }
+
+    header * {
+        display: block;
+        margin: auto;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+
+    .campingBlog h1 {
+        padding: 50px 30px 30px 30px;
+    }
+
+    .campingBlog p {
+        width: 80%;
+        font-size: 20px;
+        margin: 20px auto;
+    }
+
+    .campingPhoto {
+        text-align: center;
+        object-fit: contain;
+    }
+
 }

@@ -50,7 +50,7 @@ header a:hover {
 
 .showProjects {
     margin-top: 10px;
-    height: 620px;
+    height: 700px;
     background-color: #EF5B5B;
     text-align: center;
 }
@@ -61,20 +61,22 @@ header a:hover {
 }
 
 .boxes {
-    height: 330px;
     margin: 0 auto;
-    margin-top: 90px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-top: 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: transparent;
-    grid-auto-rows: minmax(100px, auto);
+    /* grid-auto-rows: minmax(100px, auto); */
 }
 
 .square {
-    z-index: 3;
+    width: 100%;
+    height: 100%;
     background-color: transparent;
+    display: flex;
+    flex-direction: column;
 }
 
 .photo {
@@ -85,7 +87,15 @@ header a:hover {
 img {
     object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+img:hover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
 }
 
 .HungryHippoImage {
@@ -94,7 +104,6 @@ img {
 
 h3 {
     color:#223d5d;
-    padding-top: 10px;
 }
 
 .details {
@@ -109,7 +118,7 @@ h3 {
 }
 
 .details h1 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
@@ -136,4 +145,53 @@ h3 {
 
 li {
     padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+    header {
+        display: flex;
+        height: 200px;
+        width: 100%;
+        background-color: #F49696;
+        align-items: center;
+    }
+
+    header * {
+        display: block;
+        margin: auto;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+
+    .showProjects {
+        margin-top: 10px;
+        height: 2000px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .boxes {
+        margin: 0 auto;
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        background-color: transparent;
+        row-gap: 0.3cm;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    h3 {
+        color:#223d5d;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
 }
