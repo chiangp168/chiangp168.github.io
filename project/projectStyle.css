@@ -97,7 +97,7 @@ h3 {
     padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 540px) {
     .showProjects {
         margin-top: 10px;
         height: 2000px;
