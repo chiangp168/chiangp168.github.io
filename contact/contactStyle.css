@@ -72,9 +72,13 @@ legend {
     padding-left: 5px;
     padding-right: 5px;
     font-size: 24px;
+    margin-bottom: 15px;
 }
 
+
 input[type="text"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 5px;
     width: 150px;
     height: 30px;
@@ -85,18 +89,25 @@ input[type="text"] {
 
 input[type="submit"] {
     border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100px;
     height: 30px;
     background-color: #fdfdfd;
     border: 1px solid #BABDBF;
 }
 
-label {
-    padding-top: 10px;
+form:active {
+    color:#EF5B5B;
 }
 
+input:required:invalid {
+    border-color: rgb(190, 71, 71);
+    border-width: 3px;
+}
+
+
 textarea {
+    margin-top: 10px;
     border-radius: 5px;
     width: 350px;
     height: 300px;
