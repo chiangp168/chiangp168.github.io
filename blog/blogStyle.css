@@ -1,5 +1,5 @@
 .campingBlog {
-    margin-top: 10px;
+    margin-top: 110px;
     padding-bottom: 20px;
     height: min-content;
     background-color: #71C4C1;
@@ -35,6 +35,14 @@
 }
 
 @media only screen and (max-width: 414px) {
+    .campingBlog {
+        margin-top: 210px;
+        padding-bottom: 20px;
+        height: min-content;
+        background-color: #71C4C1;
+        color:#223d5d;
+    }
+    
     .campingBlog h1 {
         padding: 50px 30px 30px 30px;
     }

@@ -6,8 +6,12 @@ header {
     display: flex;
     height: 100px;
     width: 100%;
+    top: 0;
+    left: 0;
     background-color: #F49696;
     align-items: center;
+    position: fixed;
+    z-index: 3;
 }
 
 header * {
@@ -50,6 +54,9 @@ header a:hover {
         width: 100%;
         background-color: #F49696;
         align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     header * {
